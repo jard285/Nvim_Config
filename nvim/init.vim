@@ -1,5 +1,5 @@
 
-call plug#begin('~/.config/nvim/plugged')
+call plug#begin('~/Personal/Nvim_Config/nvim/plugged')
   Plug 'roxma/nvim-yarp'
   Plug 'roxma/vim-hug-neovim-rpc'
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
@@ -16,7 +16,7 @@ call plug#begin('~/.config/nvim/plugged')
 	"Plug 'terryma/vim-multiple-cursors'
 call plug#end()
 
-source ~/.config/nvim/settings/keybinds.vim
-source ~/.config/nvim/settings/vim_settings.vim
-source ~/.config/nvim/settings/plugin_settings.vim
+source ~/Personal/Nvim_Config/nvim/settings/keybinds.vim
+source ~/Personal/Nvim_Config/nvim/settings/vim_settings.vim
+source ~/Personal/Nvim_Config/nvim/settings/plugin_settings.vim
 
