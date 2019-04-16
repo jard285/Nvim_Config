@@ -18,4 +18,7 @@ set visualbell           " don't beep
 set noerrorbells         " don't beep
 set autowrite  "Save on buffer switch
 set mouse=a
-set virtualedit=onemore 
+set virtualedit=onemore
+set colorcolumn=80
+highlight ColorColumn ctermbg=6
+

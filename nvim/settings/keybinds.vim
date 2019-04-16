@@ -15,32 +15,39 @@ inoremap <C-Left> <esc>^i
 inoremap <C-Right> <esc>A
 
 "Autoformat
-noremap ƒ :Autoformat<CR>
-inoremap ƒ <esc>:Autoformat<CR>i
+noremap ƒ :Autoformat<CR>:w<CR>
+inoremap ƒ <esc>:Autoformat<CR>:w<CR>i
+
+"Neomake clean
+noremap ˜ç :NeomakeClean<CR>
+inoremap ˜ç :NeomakeClean<CR>
 
 "Shift up and down
 noremap <M-Up> ddkP
-noremap <M-Down> ddjP
+noremap <M-Down> ddp
 inoremap <M-Up> <esc>ddkPi
-inoremap <M-Down> <esc>ddjPi
+inoremap <M-Down> <esc>ddpi
+
+"Deoplete
+inoremap <expr> <Tab> pumvisible()? deoplete#mappings#close_popup() : "\<Tab>"
 
 "NERDTree
 map <C-n> :NERDTreeToggle<CR>
 
 "Nerdcommenter
-"<M-c>
-map ç <Plug>NERDCommenterToggle
-imap ç <esc><Plug>NERDCommenterToggle i
+"<M-/>
+map ÷ <Plug>NERDCommenterToggle
+imap ÷ <esc><Plug>NERDCommenterToggle i
 
 "Delete word
 noremap <M-BS> dbi
 inoremap <M-BS> <esc>dbi
 
-"Indent (<M-t>)/unindent (<M-d>)
-noremap † >>
-inoremap † <esc>>>i
-noremap ∂ <<
-inoremap ∂ <esc><<i
+"Indent (<M-]>)/unindent (<M-[]>)
+noremap ‘ >>
+inoremap ‘ <esc>>>i
+noremap “ <<
+inoremap “ <esc><<i
 
 "Highlight next
 "noremap <M-d>
