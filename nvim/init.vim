@@ -10,6 +10,7 @@ call plug#begin('~/Personal/Nvim_Config/nvim/plugged')
 	Plug 'scrooloose/nerdcommenter'
   Plug 'Chiel92/vim-autoformat'
   Plug 'luochen1990/rainbow'
+  Plug 'airblade/vim-gitgutter'
   "
 	"
 	
