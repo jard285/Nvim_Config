@@ -1,13 +1,12 @@
 todo:
-  find out how to close autocomplete deoplete window
-  find out how to ignore neomake
-  
   add more languages to deoplete/autoformat/automake
-  add multiple cursors
-  
+  filters for neomake
   split screen
-  rainbow brackets
 
 maybe:
   code folding
 
+
+notes:
+  viw
+    select word

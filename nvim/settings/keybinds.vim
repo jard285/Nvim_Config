@@ -40,8 +40,8 @@ map ÷ <Plug>NERDCommenterToggle
 imap ÷ <esc><Plug>NERDCommenterToggle i
 
 "Delete word
-noremap <M-BS> dbi
-inoremap <M-BS> <esc>dbi
+noremap <M-BS> db
+inoremap <M-BS> <esc>dbxi
 
 "Indent (<M-]>)/unindent (<M-[]>)
 noremap ‘ >>
