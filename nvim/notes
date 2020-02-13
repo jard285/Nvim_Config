@@ -1,12 +1,10 @@
-todo:
-  add more languages to deoplete/autoformat/automake
-  filters for neomake
-  split screen
-
-maybe:
-  code folding
-
-
-notes:
-  viw
-    select word
+githubs:
+  https://github.com/scrooloose/nerdcommenter
+  https://github.com/neomake/neomake
+  https://github.com/deoplete-plugins/deoplete-jedi
+  https://github.com/shougo/deoplete.nvim#configuration
+  https://github.com/jiangmiao/auto-pairs
+  https://github.com/scrooloose/nerdtree
+  https://github.com/Chiel92/vim-autoformat
+  https://github.com/airblade/vim-gitgutter
+  https://github.com/kien/rainbow_parentheses.vim

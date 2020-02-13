@@ -13,3 +13,5 @@ let g:rainbow_active = 1
 set completeopt-=preview
 let g:deoplete#enable_at_startup = 1
 
+let g:AutoPairsFlyMode = 0
+let g:AutoPairsShortcutBackInsert = '<M-b>'
