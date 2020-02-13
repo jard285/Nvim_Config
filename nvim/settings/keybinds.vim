@@ -11,14 +11,14 @@ inoremap <M-Left> <esc>bi
 "Home and End with control
 noremap <C-Right> $l
 noremap <C-Left> ^
-inoremap <C-Left> <esc>^i
 inoremap <C-Right> <esc>A
+inoremap <C-Left> <esc>^i
 
-"Autoformat
+"Autoformat <M-f>
 noremap ƒ :Autoformat<CR>:w<CR>
 inoremap ƒ <esc>:Autoformat<CR>:w<CR>i
 
-"Neomake clean
+"Neomake clean <M-n-c>
 noremap ˜ç :NeomakeClean<CR>
 inoremap ˜ç :NeomakeClean<CR>
 

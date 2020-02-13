@@ -15,3 +15,6 @@ let g:deoplete#enable_at_startup = 1
 
 let g:AutoPairsFlyMode = 0
 let g:AutoPairsShortcutBackInsert = '<M-b>'
+
+
+let g:airline_theme='simple'
