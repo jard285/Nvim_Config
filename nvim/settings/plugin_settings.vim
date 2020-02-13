@@ -17,4 +17,7 @@ let g:AutoPairsFlyMode = 0
 let g:AutoPairsShortcutBackInsert = '<M-b>'
 
 
-let g:airline_theme='simple'
+let g:airline_theme='bubblegum'
+let g:airline_powerline_fonts=1
+
+"colorscheme base16-darktooth

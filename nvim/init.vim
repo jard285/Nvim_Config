@@ -13,6 +13,7 @@ call plug#begin('~/Personal/Nvim_Config/nvim/plugged')
   Plug 'Chiel92/vim-autoformat'
   Plug 'luochen1990/rainbow'
   Plug 'airblade/vim-gitgutter'
+  Plug 'chriskempson/base16-vim'
   "Plug 'zah/nim.vim'
   "
 	"
